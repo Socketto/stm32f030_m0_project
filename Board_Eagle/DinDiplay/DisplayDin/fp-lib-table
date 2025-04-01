@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DisplayDin")(type "KiCad")(uri "$(KIPRJMOD)/DisplayDin.pretty")(options "")(descr ""))
+)
