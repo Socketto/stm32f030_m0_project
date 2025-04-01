@@ -46,6 +46,3 @@ This electronic board based on **STM32F030RC** is designed for controlling and m
 - **Industrial Automation**: Actuator control and parameter monitoring.
 - **Home Automation**: Remote management of electronic devices via Bluetooth or RS-485.
 - **Monitoring Systems**: Reading and transmitting data from temperature sensors.
-
-## Project Photos
-![Prototype Photo](image3.jpg)
