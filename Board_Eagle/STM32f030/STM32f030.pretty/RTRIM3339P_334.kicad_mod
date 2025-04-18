@@ -1,0 +1,134 @@
+(footprint "RTRIM3339P_334"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Trimm resistor BOURNS\n\nCermet MIL-R-22097")
+	(property "Reference" "REF**"
+		(at -2.515 -4.205 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c1765928-ca38-4c1a-a35e-4c5fd3708ab8")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "RTRIM3339P_334"
+		(at -2.515 5.605 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c2078ed8-3042-4e16-8e0b-e1b36ead8f6f")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b60c669-83e4-454b-8636-2fb262b209d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cf563c7-a4a4-4f92-8ce4-bc4e499b3b70")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.4199 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d96fc635-68c2-4e7f-8c2c-3594ce8e17b8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.81 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4fd991af-f29c-4fa8-b7ff-c6e588403b2d")
+	)
+	(fp_poly
+		(pts
+			(xy -1.016 0.254) (xy 1.016 0.254) (xy 1.016 -0.254) (xy -1.016 -0.254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "dcee3797-c5ec-4569-9505-99b1a86ba9f1")
+	)
+	(fp_poly
+		(pts
+			(xy -0.254 1.016) (xy 0.254 1.016) (xy 0.254 -1.016) (xy -0.254 -1.016)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9861b04c-e3ab-4988-b447-da6ded5f1391")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.1176 1.1176)
+		(drill 0.6096)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "f4367d8d-37dd-4bf6-8c24-d7155e6a2dbb")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.1176 1.1176)
+		(drill 0.6096)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "d56e3001-1ddc-4633-9d3d-71a29971f75a")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.1176 1.1176)
+		(drill 0.6096)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "3c4e173e-56e2-4c3b-bb70-1af5d03ce07e")
+	)
+	(embedded_fonts no)
+)
